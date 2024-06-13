@@ -1,0 +1,5 @@
+fetch('http://localhost:8000/api/tweets/')
+    .then(response => response.json())
+    .then(data => {
+        // Lógica para exibir tweets no feed
+    });
